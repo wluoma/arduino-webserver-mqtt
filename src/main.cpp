@@ -227,7 +227,7 @@ void loop() {
 
   if (millis() - lastMillis > 10000) {
     lastMillis = millis();
-    mqtt.publish("arduino/test", "Arduino here..");
+    mqtt.publish("arduino/test", "Message Published from ARDUINO...");
   }
 
 }
